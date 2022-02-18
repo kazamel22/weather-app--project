@@ -1,18 +1,41 @@
 {
-  "name": "weather-journal-app",
-  "version": "1.0.0",
-  "description": "## server.js run local server using node_modules install express , body-parser and cors and used on the server listen to server 3013 add get and post methods to get data from app to api server",
-  "main": "server.js",
+  "name": "weather",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "leaflet": "^1.7.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dotenv": "^0.1.3",
+    "react-icons": "^4.3.1",
+    "react-leaflet": "^3.2.2",
+    "react-query": "^3.32.3",
+    "react-scripts": "4.0.3",
+    "sass": "^1.43.4",
+    "scss": "^0.2.4",
+    "web-vitals": "^1.0.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "react-scripts start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "ahmed mostafa",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }

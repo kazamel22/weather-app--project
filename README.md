@@ -1,18 +1,39 @@
-# Weather-Journal App Project
+# Weatherly 
+weatherly is a weather app made with 
+- React
+    - React Query
+    - React Hooks 
+- Sass
 
-## server.js
-run local server using node_modules
-install express , body-parser and cors and used on the server
-listen to server 3013
-add get and post methods to get data from app to api server
+- API : open weather map
+
+  <img src="https://github.com/dacitto/images-icons/blob/main/previews/weatherly.png"/>
 
 
+# Features
+- Search By GPS.
+- Search By City name
+- User Friendly UI.
+- Daily / Houry weather.
 
-## app.js
-add event listener will run all the app functions when click on generate 
-condition added to make sure user will add his zip and feel
-getFullApi function that will get the api url will used to get data from the api site
-postData function will convert data to json file 
-this method will chain the event after get the full data *.then* will get  the temperature data we get and get the date and the user feeling then will send them to local server
-updateUi function will update the dom to show the data we got to user and error if any
+# Instalation
+1- clone the app using the following command (cmd):
 
+ `git clone https://github.com/dacitto/weather-app`
+ 
+2- open the project diractory and type the next command to install project dependencies:
+   
+   - using npm `npm install` 
+    
+   or
+    
+   - using yarn `yarn install` 
+     
+     
+3- start the development server in http://localhost:3000/ using:
+
+  - npm `npm start`
+  
+  or
+  
+  - using yarn `yarn run`
